@@ -1,0 +1,155 @@
+/* Fuentes personalizadas*/
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(fuentes/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url(fuentes/Agrandir-WideLight.otf);
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url(fuentes/Barlow-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url(fuentes/LeagueSpartan-VariableFont_wght.ttf);
+}
+
+/*Elementos de la página web*/
+
+#cabeza_de_pagina{
+    width: 100;
+    border: 10px solid;
+    border-color: red;
+    background-color: white;
+    margin: auto;
+    display: block;
+}
+
+#pie_de_pagina{
+    width: 100;
+    border: 5px solid;
+    border-color: #f1f1f1;
+    background-color: black;
+    margin: auto;
+    display: block;
+}
+
+.contenido_de_la_pagina{
+    margin:40px auto;
+    max-width:650px;
+    line-height:1.6;
+    font-size:18px;
+    color:#444;
+    padding:0 10px
+}
+
+.receta{
+    width: 100;
+    border: 4px solid;
+    border-color: red;
+    background-color: #f1f1f1;
+    margin: auto;
+    display: block;
+    padding: 10px;
+}
+
+form{
+    margin: auto;
+    display: block;
+}
+
+/*Navegación de la página*/
+#navegacion_de_pagina{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button{
+    border: solid #da2b28;
+    font-family: 'League Spartan';
+}
+
+
+/*Elementos de texto*/
+
+h1,h2,h3,h4{
+    font-family: 'Agrandir';
+    line-height:1.2;
+    text-align: center;
+}
+
+ul{
+    font-family: 'Barlow';
+}
+
+p{
+    font-family: 'Poppins';
+    text-align: left;
+}
+
+#texto_pie_de_pagina{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+}
+
+/*Imagenes*/
+
+#img_banner{
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+
+.img_platillo{
+    margin: auto;
+    display: block;
+    border: 5px;
+    border-color: #da2b28;
+    border-style: solid;
+    width: 45%;
+    padding-top: 10;
+}
+
+/* Links */
+
+a{
+    text-align: center;
+    font-family: 'League Spartan';
+}
+
+a:link{
+    text-align: center;
+    font-family: 'League Spartan';
+    color: dodgerblue;
+}
+
+
+a:hover{
+    text-align: center;
+    font-family: 'League Spartan';
+    color: darkslategray;
+}
+
+
+a:visited{
+    text-align: center;
+    font-family: 'League Spartan';
+    color: maroon;
+}
+
+a:active{
+    text-align: center;
+    font-family: 'League Spartan';
+    color: aquamarine;
+}
